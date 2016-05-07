@@ -95,11 +95,6 @@ for player in allPlayers {
     }
 }
 
-
-//Dragons - March 17, 1pm, Sharks - March 17, 3pm, Raptors - March 18, 1pm
-
-
-
 /* Letters
  -----------------------------*/
 
@@ -117,13 +112,5 @@ for shark in sharks {
 for raptor in raptors {
     print("Dear \(raptor["guardian"]!),\nWelcome to the Raptors! \(raptor["name"]!) has their first practice on March 17 at 1pm. All players that are late will be fed to the Raptor.\nLove,\nCoach Bob")
 }
-
-
-
-
-
-
-
-
 
 
