@@ -78,19 +78,19 @@ for player in allPlayers {
     if (player["experience"] as! String == "yes") && (dragons.count < hasExperiencePlayersPerTeam)  {
         dragons.append(player)
     }
-    if (player["experience"] as! String == "no") && (dragons.count < totalPlayersPerTeam)  {
+    else if (player["experience"] as! String == "no") && (dragons.count < totalPlayersPerTeam)  {
         dragons.append(player)
     }
-    if (player["experience"] as! String == "yes") && (sharks.count < hasExperiencePlayersPerTeam)  {
+    else if (player["experience"] as! String == "yes") && (sharks.count < hasExperiencePlayersPerTeam)  {
         sharks.append(player)
     }
-    if (player["experience"] as! String == "no") && (sharks.count < totalPlayersPerTeam)  {
+    else if (player["experience"] as! String == "no") && (sharks.count < totalPlayersPerTeam)  {
         sharks.append(player)
     }
-    if (player["experience"] as! String == "yes") && (raptors.count < hasExperiencePlayersPerTeam)  {
+    else if (player["experience"] as! String == "yes") && (raptors.count < hasExperiencePlayersPerTeam)  {
         raptors.append(player)
     }
-    if (player["experience"] as! String == "no") && (raptors.count < totalPlayersPerTeam)  {
+    else if (player["experience"] as! String == "no") && (raptors.count < totalPlayersPerTeam)  {
         raptors.append(player)
     }
 }
